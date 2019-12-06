@@ -1,6 +1,6 @@
 # Este é o trabalho final da disciplina Programação Criativa
 
-== O grupo
+## O grupo
 
 Camila Belmonte
 
@@ -10,7 +10,7 @@ Roberto
 
 Vanessa Destri
 
-== O projeto
+## O projeto
 
 O projeto faz com que bolinhas sejam randomicamente acrescentas à tela e o usuário pode ligar os pontos.
 
