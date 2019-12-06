@@ -23,6 +23,4 @@ A tecla `PRINT` do teclado faz com que o desenho seja impresso em um arquivo .pd
 ![Board](/connectthedots.png)
 
 
-## Executável
 
-Há um arquivo executável do projeto dentro da pasta `ConnectTheDots`
