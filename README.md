@@ -21,3 +21,8 @@ A tecla `DELETE` do teclado faz com que as linhas anteriores sejam deletadas
 A tecla `PRINT` do teclado faz com que o desenho seja impresso em um arquivo .pdf
 
 ![Board](/connectthedots.png)
+
+
+## Executável
+
+Há um arquivo executável do projeto dentro da pasta `ConnectTheDots`
