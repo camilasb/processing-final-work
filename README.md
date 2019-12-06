@@ -14,7 +14,7 @@ Vanessa Destri
 
 O projeto faz com que bolinhas sejam randomicamente acrescentas à tela e o usuário pode ligar os pontos.
 
-A tecla `SPACE` do teclado faz com que novas bolinhas sejam aditionadas ao board.
+A tecla `SPACE` do teclado faz com que novas bolinhas sejam adicionadas ao board.
 
 A tecla `DELETE` do teclado faz com que as linhas anteriores sejam deletadas
 
