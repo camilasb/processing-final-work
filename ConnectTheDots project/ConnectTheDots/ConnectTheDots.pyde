@@ -3,7 +3,7 @@ salvar_pdf = False
 
 firstPress = 0 #variavel que guarda se o mouse foi pressionado a primeira vez
 linhas = [] #lista de valores (vazio)
-barckgroundColor = 255
+backgroundColor = 255
 
 def setup():
     size(1000, 1000) #tamanho do board
@@ -23,7 +23,7 @@ def sorteio(n): #método de sorteio onde vão ser plotadas as bolinhas
         pontos.append((x, y)) #colocar um valor dentro da lista de pontos
         
 def draw():
-    background (barckgroundColor) #limpa o background para que a linha plotada nao deixe rastro
+    background (backgroundColor) #limpa o background para que a linha plotada nao deixe rastro
     global salvar_pdf
     if salvar_pdf : #salvar_pdf == True
         beginRecord(PDF, "arquiv.pdf")
@@ -64,10 +64,10 @@ def mousePressed():
 def keyPressed(): 
     
     if key == " ": #se o espaço for pressionado, novas bolinhas vao aparecer
-        global barckgroundColor
-        barckgroundColor = andom(256), random(256), random(256)
-        background (barckgroundColor)
-        print(barckgroundColor)
+        global backgroundColor
+        backgroundColor = andom(256), random(256), random(256)
+        background (backgroundColor)
+        print(backgroundColor)
         sorteio(5)
         
     if key == DELETE: #se o delete for pressionado, as linhas anteriores irao ser deletadas
